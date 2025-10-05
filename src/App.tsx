@@ -15,6 +15,7 @@ import Services from './pages/services';
 import AboutPage from './pages/about';
 import AccessibilityPage from './pages/accessibility';
 import AboutPhilippines from './pages/philippines/about';
+import ContactUsPage from './pages/contact-us';
 import PhilippinesHistory from './pages/philippines/history';
 import PhilippinesCulture from './pages/philippines/culture';
 import PhilippinesRegions from './pages/philippines/regions';
@@ -101,6 +102,7 @@ function App() {
             <Route path='/services' element={<Services />} />
             <Route path='/about' element={<AboutPage />} />
             <Route path='/accessibility' element={<AccessibilityPage />} />
+            <Route path='/contact-us' element={<ContactUsPage />} />
             <Route path='/search' element={<SearchPage />} />
             <Route path='/ideas' element={<Ideas />} />
             <Route path='/join-us' element={<JoinUs />} />
